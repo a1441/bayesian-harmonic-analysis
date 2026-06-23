@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Scratch
+scratchpad/
+*.tmp
+
+# Source papers kept local, not redistributed in the public repo
+docs/papers/
+
+# Local test-drive notebook (not tracked)
+playground.ipynb
+
+# Dev/Claude artifacts and exploratory material, kept local only
+CLAUDE.md
+Plans/
+notebooks/
+data/*.xlsx
